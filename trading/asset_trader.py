@@ -23,8 +23,8 @@ import pyupbit as upbit
 from IPython.display import clear_output
 
 # 업비트 계정연동(업비트 로그인 -> 고객센터 -> open api안내 -> open api사용하기)
-access="NxrbJFvZ3muUTmZm1xZLflwsPNNJwxlPUirjYIWg"
-secret="aK3ApJRXtU5SxqVY6w5R9ALPpzxUwxPt37gFQ8Zl"
+access=""
+secret=""
 upbit_access = upbit.Upbit(access, secret)
 
 # 비트코인 현재가 정보 가져오기
